@@ -10,24 +10,35 @@ const Icons = () => {
     return images;
   }
 
-  const images = importAll(
-    require.context("../../Assets/Icons/")
-    //  require.context('./images', false, /\.(png|jpe?g|svg)$/);
-  );
+  const images = importAll(require.context("../../Assets/Icons/"));
 
-  console.log("image", images);
+  function download(source) {
+    const fileName = source.split("/").pop();
+    var el = document.createElement("a");
+    el.setAttribute("href", source);
+    el.setAttribute("download", fileName);
+    document.body.appendChild(el);
+    el.click();
+    el.remove();
+  }
+
   return (
     <div className="icons-container">
       <div className="icons-items">
         <div className="input-search">
-          <img src={Search} />
+          <img alt="search" src={Search} />
           <input placeholder="Search icons" />
         </div>
         <div className="result-icons">
           <div className="all-icons">
             <div className="result-div">
               {Object.keys(images).map((key) => (
-                <div className="image-item">
+                <div
+                  className="image-item"
+                  onClick={() => {
+                    download(images[key]);
+                  }}
+                >
                   <img src={images[key]} alt="" />
                 </div>
               ))}
