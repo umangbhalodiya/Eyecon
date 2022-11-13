@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
-const Home = () => {
+const Footer = () => {
   useEffect(() => {
     console.log("object");
   }, []);
-  return <div>Home</div>;
+  return <div>Footer</div>;
 };
 
-export default Home;
+export default Footer;

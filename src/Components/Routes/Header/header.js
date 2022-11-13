@@ -1,10 +1,20 @@
-import react, { useEffect } from "react";
+import { useEffect } from "react";
+import "../../Styles/header.scss";
 
-const Header = (props) => {
+const Header = () => {
   useEffect(() => {
-    console.log("object");
+    console.log("Header");
   }, []);
-  return <div></div>;
+
+  return (
+    <div>
+      <div className="header-container">
+        <div className="header-dection">
+          <div className="header-contents">sdsdl</div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
