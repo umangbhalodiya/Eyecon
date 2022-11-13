@@ -9,9 +9,7 @@ const Header = () => {
   return (
     <div>
       <div className="header-container">
-        <div className="header-dection">
-          <div className="header-contents">sdsdl</div>
-        </div>
+        <div className="header-section">Eyecons</div>
       </div>
     </div>
   );

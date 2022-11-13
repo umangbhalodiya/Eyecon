@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+.header-container {
+    background-color: #fff;
+    border-bottom: 1px solid #E9ECF0;
+
+    // width: 100%;
+
+    .header-section {
+        color: #000;
+        padding: 10px;
+        height: 50px;
+        align-items: center;
+        margin: 0 40px 0 40px;
+        display: flex;
+        font-family: 'Sigmar One', cursive;
+        justify-content: center;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}

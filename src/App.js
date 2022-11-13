@@ -1,14 +1,16 @@
 import "./App.css";
-import { RouterProvider } from "react-router-dom";
-import { router } from "./Components/Routes/router";
+
 import Header from "./Components/Routes/Header/header";
 import Footer from "./Components/Routes/Footer/footer";
+import Home from "./Components/Routes/Home/home";
+import Icons from "./Components/Routes/Icons/icons";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <RouterProvider router={router} />
+      <Home />
+      <Icons />
       <Footer />
     </div>
   );

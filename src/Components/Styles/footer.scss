@@ -1,0 +1,24 @@
+.footer-container {
+    background-color: #061B2D;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #1E4976;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+
+    img {
+        border-radius: 50px;
+        height: 30px;
+        width: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+}
