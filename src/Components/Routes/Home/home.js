@@ -1,10 +1,6 @@
-import { useEffect } from "react";
 import "../../Styles/home.scss";
 import Puzz from "../../Assets/Images/tv.gif";
 const Home = () => {
-  useEffect(() => {
-    console.log("object");
-  }, []);
   return (
     <div className="home-container">
       <div className="home-grid">
@@ -14,7 +10,11 @@ const Home = () => {
             <h2> Premium icons pack</h2>
             <div className="button-download">
               <button>
-                <a href="https://github.com/umangbhalodiya" target="_blank">
+                <a
+                  href="https://github.com/umangbhalodiya"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Download free
                 </a>
               </button>
@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-content-right">
-          <img src={Puzz} />
+          <img alt="puzz" src={Puzz} />
         </div>
       </div>
     </div>

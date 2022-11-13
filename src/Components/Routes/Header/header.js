@@ -1,11 +1,6 @@
-import { useEffect } from "react";
 import "../../Styles/header.scss";
 
 const Header = () => {
-  useEffect(() => {
-    console.log("Header");
-  }, []);
-
   return (
     <div>
       <div className="header-container">
