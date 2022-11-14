@@ -1,7 +1,10 @@
 import "../../Styles/icons.scss";
-import Search from "../../Assets/Images/srch.svg";
+import Down from "../../Assets/Images/down.png";
+import { useState } from "react";
 
 const Icons = () => {
+  const [filterName, setFilterName] = useState("");
+
   function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
@@ -25,10 +28,6 @@ const Icons = () => {
   return (
     <div className="icons-container">
       <div className="icons-items">
-        <div className="input-search">
-          <img alt="search" src={Search} />
-          <input placeholder="Search icons" />
-        </div>
         <div className="result-icons">
           <div className="all-icons">
             <div className="result-div">
@@ -40,8 +39,15 @@ const Icons = () => {
                   }}
                 >
                   <img src={images[key]} alt="" />
+                  {images[key].split("/")[3].split("-")[0].split(".")[0]}
                 </div>
               ))}
+              {/* {console.log(
+                "xccc",
+                Object.keys(images).map(
+                  (key) => images[key].split("/")[3].split("-")[0].split(".")[0]
+                )
+              )} */}
             </div>
           </div>
         </div>
