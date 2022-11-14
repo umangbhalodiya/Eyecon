@@ -1,10 +1,6 @@
 import "../../Styles/icons.scss";
-import Down from "../../Assets/Images/down.png";
-import { useState } from "react";
 
 const Icons = () => {
-  const [filterName, setFilterName] = useState("");
-
   function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
