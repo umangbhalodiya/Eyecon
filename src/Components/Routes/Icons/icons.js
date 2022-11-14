@@ -38,12 +38,6 @@ const Icons = () => {
                   {images[key].split("/")[3].split("-")[0].split(".")[0]}
                 </div>
               ))}
-              {/* {console.log(
-                "xccc",
-                Object.keys(images).map(
-                  (key) => images[key].split("/")[3].split("-")[0].split(".")[0]
-                )
-              )} */}
             </div>
           </div>
         </div>
