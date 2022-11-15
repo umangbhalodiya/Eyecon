@@ -8,9 +8,7 @@ const Icons = () => {
     });
     return images;
   }
-
   const images = importAll(require.context("../../Assets/Icons/"));
-
   function download(source) {
     const fileName = source.split("/").pop();
     var el = document.createElement("a");
