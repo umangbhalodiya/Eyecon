@@ -1,5 +1,4 @@
 import "./App.css";
-
 import Header from "./Components/Routes/Header/header";
 import Footer from "./Components/Routes/Footer/footer";
 import Home from "./Components/Routes/Home/home";
