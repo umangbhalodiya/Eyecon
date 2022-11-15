@@ -1,3 +1,5 @@
 # Eyecons
 
- Free icons download site build using ReactJs & Scss 
+Free icons download site built in ReactJs & Scss 
+
+Download single icons or full pack
