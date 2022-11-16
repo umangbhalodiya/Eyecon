@@ -60,6 +60,13 @@
                         cursor: pointer;
                         width: 100%;
                         border-radius: 10px;
+                        .name-span{
+                            transition: 300ms;
+                            &:hover{
+                                color:#017FFE ;
+                                transition: 300ms;
+                            }
+                        }
 
                         img {
                             height: 30px;
