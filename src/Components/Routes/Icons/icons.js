@@ -33,7 +33,11 @@ const Icons = () => {
                   }}
                 >
                   <img src={images[key]} alt="" />
-                  {images[key].split("/")[3].split("-")[0].split(".")[0]}
+                  {images[key]
+                    ?.split("/")[3]
+                    ?.split("-")[0]
+                    ?.split(".")[0]
+                    ?.toUpperCase()}
                 </div>
               ))}
             </div>
