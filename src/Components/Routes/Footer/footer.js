@@ -4,7 +4,7 @@ import Umang from "../../Assets/Images/me.jpg";
 const Footer = () => {
   return (
     <div className="footer-container">
-      By <img alt="me" src={Umang} />
+      By <img alt="Myimage" src={Umang} />
       <a
         href="https://github.com/umangbhalodiya"
         rel="noreferrer"
