@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-content-right">
-          <img alt="puzz" src={Puzz} />
+          <img alt="gifimg" src={Puzz} />
         </div>
       </div>
     </div>
