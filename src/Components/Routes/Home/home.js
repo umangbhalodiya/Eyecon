@@ -6,7 +6,7 @@ const Home = () => {
       <div className="home-grid">
         <div className="home-content">
           <div>
-            <h1>1400+ </h1>
+            <h1>2900+ </h1>
             <h2> Premium icons pack</h2>
             <div className="button-download">
               <button>

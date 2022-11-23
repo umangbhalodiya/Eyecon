@@ -8,7 +8,7 @@ const Bootstrapicons = () => {
         });
         return images;
     }
-    const images = importAll(require.context("../../Assets/Icons/"));
+    const images = importAll(require.context("../../Assets/Bootstrap/"));
     function download(source) {
         const fileName = source.split("/").pop();
         var el = document.createElement("a");
@@ -40,7 +40,7 @@ const Bootstrapicons = () => {
                                         ?.split("/")[3]
                                         ?.split("-")[0]
                                         ?.split(".")[0]
-                                        ?.toUpperCase()}</span>
+                                    }</span>
                                 </div>
                             ))}
                         </div>

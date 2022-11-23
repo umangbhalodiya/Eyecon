@@ -33,11 +33,9 @@ const Icons = () => {
                   }}
                 >
                   <img src={images[key]} alt="" />
-                  <span className="name-span">{images[key]
-                    ?.split("/")[3]
-                    ?.split("-")[0]
-                    ?.split(".")[0]
-                    ?.toUpperCase()}</span>
+                  <span className="name-span">
+                    {images[key]?.split("/")[3]?.split("-")[0]?.split(".")[0]}
+                  </span>
                 </div>
               ))}
             </div>
