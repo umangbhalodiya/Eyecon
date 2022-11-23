@@ -10,6 +10,19 @@
         justify-content: center;
         align-items: center;
 
+        .bootstrap-lable {
+            color: #071A2E;
+            transition: 200ms;
+            text-decoration: underline;
+
+            &:hover {
+                color: #017FFE;
+                cursor: none;
+                transition: 200ms;
+                text-decoration: none;
+            }
+        }
+
         .input-search {
             display: flex;
             background-color: transparent;
@@ -60,10 +73,12 @@
                         cursor: pointer;
                         width: 100%;
                         border-radius: 10px;
-                        .name-span{
+
+                        .name-span {
                             transition: 300ms;
-                            &:hover{
-                                color:#017FFE ;
+
+                            &:hover {
+                                color: #017FFE;
                                 transition: 300ms;
                                 font-weight: bold;
                             }
