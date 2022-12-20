@@ -1,5 +1,8 @@
 import "../../Styles/home.scss";
-import Puzz from "../../Assets/Images/tv.gif";
+import LineOne from "../Marqs/LineOne";
+import LineTwo from "../Marqs/LineTwo";
+import ListThree from "../Marqs/ListThree";
+// import Puzz from "../../Assets/Images/tv.gif";
 const Home = () => {
   return (
     <div className="home-container">
@@ -22,7 +25,28 @@ const Home = () => {
           </div>
         </div>
         <div className="home-content-right">
-          <img alt="giffyimage" src={Puzz} />
+          <div className="home-content-circle">
+            <div className="marq-sections">
+              <div className="marq-item">
+                <marquee>
+                  <LineOne />
+                </marquee>
+                <marquee>
+                  <LineTwo />
+                </marquee>
+                <marquee>
+                  <ListThree />
+                </marquee>
+                <marquee>
+                  <LineOne />
+                </marquee>
+                <marquee>
+                  <LineOne />
+                </marquee>
+              </div>
+            </div>
+          </div>
+          {/* <img alt="giffyimage" src={Puzz} /> */}
         </div>
       </div>
     </div>
