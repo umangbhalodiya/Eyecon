@@ -2,7 +2,7 @@ import "../../Styles/home.scss";
 import LineOne from "../Marqs/LineOne";
 import LineTwo from "../Marqs/LineTwo";
 import ListThree from "../Marqs/ListThree";
- const Home = () => {
+const Home = () => {
   return (
     <div className="home-container">
       <div className="home-grid">
@@ -36,16 +36,9 @@ import ListThree from "../Marqs/ListThree";
                 <marquee>
                   <ListThree />
                 </marquee>
-                {/* <marquee>
-                  <LineOne />
-                </marquee>
-                <marquee>
-                  <LineOne />
-                </marquee> */}
               </div>
             </div>
           </div>
-          {/* <img alt="giffyimage" src={Puzz} /> */}
         </div>
       </div>
     </div>
