@@ -1,52 +1,24 @@
 import { useState } from "react";
 import "../../Styles/icons.scss";
+import Bootstrap from "../Bootstrap/Bootstrap";
+import Normal from "../Normal/Normal";
 
 const Icons = () => {
-  const [iconsType, setIconsType] = useState("mui");
-
-  function importAll(r) {
-    let images = {};
-    r.keys().map((item) => {
-      images[item.replace("./", "")] = r(item);
-    });
-    return images;
-  }
-  const images = importAll(require.context("../../Assets/Icons/"));
-  function download(source) {
-    const fileName = source.split("/").pop();
-    var el = document.createElement("a");
-    el.setAttribute("href", source);
-    el.setAttribute("download", fileName);
-    document.body.appendChild(el);
-    el.click();
-    el.remove();
-  }
+  const [iconsType, setIconsType] = useState("normal");
 
   return (
     <div className="icons-container">
       <div className="icons-items">
         <div className="icon-types">
-          <div className="icon-type-item">MUI</div>
-          <div className="icon-type-item">Bootstrap</div>
-          <div className="icon-type-item">Lucide</div>
+          <div className={iconsType === "normal" ? "icon-type-item-active" : "icon-type-item"} onClick={() => { setIconsType("normal") }}>Normal</div>
+          <div className={iconsType === "bootstrap" ? "icon-type-item-active" : "icon-type-item"} onClick={() => { setIconsType("bootstrap") }}>Bootstrap</div>
+          <div className={iconsType === "doodle" ? "icon-type-item-active" : "icon-type-item"} onClick={() => { setIconsType("doodle") }}>Doodle</div>
         </div>
         <div className="result-icons">
           <div className="all-icons">
-            {/* <div className="result-div">
-              {Object.keys(images).map((key) => (
-                <div
-                  className="image-item"
-                  onClick={() => {
-                    download(images[key]);
-                  }}
-                >
-                  <img src={images[key]} alt="" />
-                  <span className="name-span">
-                    {images[key]?.split("/")[3]?.split("-")[0]?.split(".")[0]}
-                  </span>
-                </div>
-              ))}
-            </div> */}
+            {iconsType === "normal" && <Normal />}
+            {iconsType === "bootstrap" && <Bootstrap />}
+            {/* {iconsType === "doodle" && <Normal />} */}
           </div>
         </div>
       </div>
