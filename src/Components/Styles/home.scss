@@ -10,7 +10,6 @@
         grid-template-columns: repeat(2, 1fr);
         height: -webkit-fill-available;
 
-
         .home-content {
             display: flex;
             justify-content: center;
@@ -63,10 +62,8 @@
                         background-color: #0158B2;
                         transition: 300ms;
                     }
-
                 }
             }
-
         }
 
         .home-content-right {
@@ -81,25 +78,18 @@
                 border-radius: 500px 0 0 500px;
                 background-color: #F3F6F9;
                 height: 50%;
-                // padding: 10px 0 10px 10px;
                 box-shadow: 0 0 2px;
-
-                // position: relative;
-                // z-index: 9999999;
 
                 .marq-sections {
                     border-radius: 500px 0 0 500px;
                     height: 100%;
 
-                    // position: absolute;
-                    // top: 0;
                     .marq-item {
                         height: 100%;
                         overflow: hidden;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-evenly;
-                        // padding:  20px 0 20px 0;
                         border-radius: 500px 0 0 500px;
 
                         .marq-single {

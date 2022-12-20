@@ -2,8 +2,7 @@ import "../../Styles/home.scss";
 import LineOne from "../Marqs/LineOne";
 import LineTwo from "../Marqs/LineTwo";
 import ListThree from "../Marqs/ListThree";
-// import Puzz from "../../Assets/Images/tv.gif";
-const Home = () => {
+ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-grid">
