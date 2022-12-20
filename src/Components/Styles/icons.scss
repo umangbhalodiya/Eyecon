@@ -49,20 +49,6 @@
             }
 
         }
-
-        .bootstrap-lable {
-            color: #071A2E;
-            transition: 200ms;
-            text-decoration: underline;
-
-            &:hover {
-                color: #017FFE;
-                cursor: none;
-                transition: 200ms;
-                text-decoration: none;
-            }
-        }
-
         .input-search {
             display: flex;
             background-color: transparent;
@@ -121,7 +107,7 @@
                             &:hover {
                                 color: #017FFE;
                                 transition: 300ms;
-                                font-weight: bold;
+                                // font-weight: bold;
                             }
                         }
 
