@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "../../Styles/icons.scss";
 
 const Icons = () => {
+  const [iconsType, setIconsType] = useState("mui");
+
   function importAll(r) {
     let images = {};
     r.keys().map((item) => {
@@ -22,9 +25,14 @@ const Icons = () => {
   return (
     <div className="icons-container">
       <div className="icons-items">
+        <div className="icon-types">
+          <div className="icon-type-item">MUI</div>
+          <div className="icon-type-item">Bootstrap</div>
+          <div className="icon-type-item">Lucide</div>
+        </div>
         <div className="result-icons">
           <div className="all-icons">
-            <div className="result-div">
+            {/* <div className="result-div">
               {Object.keys(images).map((key) => (
                 <div
                   className="image-item"
@@ -38,7 +46,7 @@ const Icons = () => {
                   </span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

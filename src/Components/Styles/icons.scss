@@ -1,6 +1,6 @@
 .icons-container {
     background: #fff;
-    height: 90vh;
+    height: 92vh;
     color: #000;
     padding-top: 130px;
 
@@ -9,6 +9,42 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .icon-types {
+            background: rgb(243, 246, 249);
+            background: -moz-radial-gradient(circle, rgba(243, 246, 249, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            background: -webkit-radial-gradient(circle, rgba(243, 246, 249, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            background: radial-gradient(circle, rgba(243, 246, 249, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3f6f9", endColorstr="#ffffff", GradientType=1);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+            margin: 0 0 20px 0;
+            // border-top: 1px solid #F3F6F9;
+            // border-bottom: 1px solid #F3F6F9;
+            padding: 20px 0 20px 0;
+
+            .icon-type-item {
+                padding: 15px 20px 15px 20px;
+                cursor: pointer;
+                transition: 300ms;
+                font-weight: regular;
+                font-size: 20px;
+                font-weight: bold;
+                border-radius: 3px;
+                border-bottom: 3px solid transparent;
+
+                // border: 1px solid #d3d3d3;
+
+                &:hover {
+                    color: #000;
+
+                    border-bottom: 3px solid #d3d3d3;
+                    transition: 300ms;
+                }
+            }
+        }
 
         .bootstrap-lable {
             color: #071A2E;
@@ -45,19 +81,20 @@
         }
 
         .result-icons {
-            margin-top: 50px;
+            margin-top: 40px;
             display: flex;
             width: 100%;
             justify-content: center;
 
             .all-icons {
-                height: 675px;
+                height: 770px;
                 overflow: auto;
                 scroll-behavior: smooth;
                 width: 70%;
                 border: 1px solid #fff;
                 border-radius: 7px;
-                box-shadow: #00162c 0px 5px 15px;
+                border: 1px solid #eef7ff;
+                // box-shadow: #00162c 0px 5px 15px;
 
                 .result-div {
                     padding: 10px;
