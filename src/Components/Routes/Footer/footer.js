@@ -10,7 +10,7 @@ const Footer = () => {
         rel="noreferrer"
         target="_blank"
       >
-        Dev_Uvi
+        Dev_Umang
       </a>
     </div>
   );
