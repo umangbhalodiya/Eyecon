@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-grid">
         <div className="home-content">
           <div>
-            <h1>2900+ </h1>
+            <h1> 24000+ </h1>
             <h2> Premium icons pack</h2>
             <div className="button-download">
               <button>
@@ -37,12 +37,12 @@ const Home = () => {
                 <marquee>
                   <ListThree />
                 </marquee>
-                <marquee>
+                {/* <marquee>
                   <LineOne />
                 </marquee>
                 <marquee>
                   <LineOne />
-                </marquee>
+                </marquee> */}
               </div>
             </div>
           </div>
