@@ -6,7 +6,7 @@ const Doodle = () => {
         });
         return images;
     }
-    const images = importAll(require.context("../../Assets/Icons/"));
+    const images = importAll(require.context("../../Assets/Doodle/"));
     function download(source) {
         const fileName = source.split("/").pop();
         var el = document.createElement("a");

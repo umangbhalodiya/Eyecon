@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../Styles/icons.scss";
 import Bootstrap from "../Bootstrap/Bootstrap";
+import Doodle from "../Doodle/Doodle";
 import Normal from "../Normal/Normal";
 
 const Icons = () => {
@@ -18,7 +19,7 @@ const Icons = () => {
           <div className="all-icons">
             {iconsType === "normal" && <Normal />}
             {iconsType === "bootstrap" && <Bootstrap />}
-            {/* {iconsType === "doodle" && <Normal />} */}
+            {iconsType === "doodle" && <Doodle />}
           </div>
         </div>
       </div>
