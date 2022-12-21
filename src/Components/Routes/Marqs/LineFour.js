@@ -15,7 +15,7 @@ import { ReactComponent as Image14 } from "../../Assets/Lucide/marq/shirt.svg"
 import { ReactComponent as Image15 } from "../../Assets/Lucide/marq/ticket.svg"
 
 const LineFour = () => {
-    const imageStyle = { fill: "#000", height: "30px", width: "30px" }
+    const imageStyle = { fill: "#000", height: "40px", width: "40px" }
     return (
         <div className="marq-single">
             {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
