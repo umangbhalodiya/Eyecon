@@ -14,7 +14,7 @@ import Image13 from "../../Assets/Icons/marq/trash.svg"
 import Image14 from "../../Assets/Icons/marq/tv.svg"
 import Image15 from "../../Assets/Icons/marq/wifi.svg"
 
-const ListThree = () => {
+const LineThree = () => {
     return (
         <div className="marq-single">
             {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => {
@@ -72,4 +72,4 @@ const ListThree = () => {
     );
 };
 
-export default ListThree;
+export default LineThree;
