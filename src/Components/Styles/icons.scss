@@ -105,28 +105,26 @@
 
                         .name-span {
                             transition: 300ms;
-
-                            &:hover {
-                                display: none;
-                                transition: 300ms;
-                            }
                         }
 
                         img {
                             height: 30px;
                             width: 30px;
                             color: #000;
+                            transition: 350ms;
                             fill: #000;
+
                             &:hover {
-                                height: 40px;
-                                width: 40px;
-                                fill: #fff;
-                                transition: 300ms;
+                                margin-top: 20px;
+                                height: 50px;
+                                width: 50px;
+                                transition: 150ms;
                             }
                         }
 
                         &:hover {
                             background: #e7e7e7;
+                            color: transparent;
                             transition: 300ms;
                         }
                     }
