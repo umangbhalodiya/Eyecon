@@ -22,7 +22,7 @@ const Icons = () => {
             {iconsType === "classic" && <Classic />}
             {iconsType === "bootstrap" && <Bootstrap />}
             {iconsType === "doodle" && <Doodle />}
-            {iconsType === "Lucide" && <Lucide />}
+            {iconsType === "lucide" && <Lucide />}
           </div>
         </div>
       </div>
