@@ -35,7 +35,6 @@ const Lucide = () => {
                 ))
             }
         </div >
-
     );
 };
 
