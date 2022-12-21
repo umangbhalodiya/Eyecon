@@ -1,7 +1,8 @@
 import "../../Styles/home.scss";
 import LineOne from "../Marqs/LineOne";
 import LineTwo from "../Marqs/LineTwo";
-import ListThree from "../Marqs/ListThree";
+import LineThree from "../Marqs/LineThree";
+import LineFour from "../Marqs/LineFour";
 const Home = () => {
   return (
     <div className="home-container">
@@ -34,7 +35,10 @@ const Home = () => {
                   <LineTwo />
                 </marquee>
                 <marquee>
-                  <ListThree />
+                  <LineThree />
+                </marquee>
+                <marquee>
+                  <LineFour />
                 </marquee>
               </div>
             </div>
