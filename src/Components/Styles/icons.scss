@@ -49,6 +49,7 @@
             }
 
         }
+
         .input-search {
             display: flex;
             background-color: transparent;
@@ -106,6 +107,7 @@
 
                             &:hover {
                                 color: #017FFE;
+                                display: none;
                                 transition: 300ms;
                                 // font-weight: bold;
                             }
