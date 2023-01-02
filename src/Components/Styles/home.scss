@@ -1,121 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-.home-container {
-    background: #fff;
-    height: 85vh;
-    color: #000;
+ .home-container {
+     background: #fff;
+     height: 85vh;
+     color: #000;
 
-    .home-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: -webkit-fill-available;
+     .home-grid {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         height: -webkit-fill-available;
 
-        .home-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+         .home-content {
+             display: flex;
+             justify-content: center;
+             align-items: center;
 
-            h1 {
-                margin: 0;
-                font-size: 70px;
-                transition: 300ms;
-                text-align: end;
-                cursor: none;
+             h1 {
+                 margin: 0;
+                 font-size: 70px;
+                 transition: 300ms;
+                 text-align: end;
+                 cursor: none;
 
-                &:hover {
-                    color: #017FFE;
-                    transition: 300ms;
-                }
-            }
+                 &:hover {
+                     color: #017FFE;
+                     transition: 300ms;
+                 }
+             }
 
-            h2 {
-                font-size: 35px;
-                margin: 0;
-            }
+             h2 {
+                 font-size: 35px;
+                 margin: 0;
+             }
 
-            .button-download {
-                display: flex;
-                margin-top: 10px;
-                justify-content: center;
+             .button-download {
+                 display: flex;
+                 margin-top: 10px;
+                 justify-content: center;
 
-                button {
-                    height: 50px;
-                    text-align: center;
-                    border: 1px solid #67B2FE;
-                    color: #fff;
-                    background: #017FFE;
-                    cursor: pointer;
-                    width: 200px;
-                    font-size: 17px;
-                    border-radius: 7px;
-                    font-family: 'Sigmar One', cursive;
-                    cursor: none;
+                 button {
+                     height: 50px;
+                     text-align: center;
+                     border: 1px solid #67B2FE;
+                     color: #fff;
+                     background: #017FFE;
+                     cursor: pointer;
+                     width: 200px;
+                     font-size: 17px;
+                     border-radius: 7px;
+                     font-family: 'Source Code Pro', monospace;
+                     cursor: none;
 
-                    a {
-                        color: #fff;
-                        text-decoration: none;
-                        cursor: none;
-                    }
+                     a {
+                         color: #fff;
+                         text-decoration: none;
+                         cursor: none;
+                     }
 
-                    &:hover {
-                        background-color: #0158B2;
-                        transition: 300ms;
-                    }
-                }
-            }
-        }
+                     &:hover {
+                         background-color: #0158B2;
+                         transition: 300ms;
+                     }
+                 }
+             }
+         }
 
-        .home-content-right {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #fff;
-            border-radius: 0 0 0 20px;
+         .home-content-right {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             background: #fff;
+             border-radius: 0 0 0 20px;
 
-            .home-content-circle {
-                width: 100%;
-                border-radius: 500px 0 0 500px;
-                background-color: #F3F6F9;
-                height: 50%;
-                box-shadow: 0 0 2px;
+             .home-content-circle {
+                 width: 100%;
+                 border-radius: 500px 0 0 500px;
+                 background-color: #F3F6F9;
+                 height: 50%;
+                 box-shadow: 0 0 2px;
 
-                .marq-sections {
-                    border-radius: 500px 0 0 500px;
-                    height: 100%;
+                 .marq-sections {
+                     border-radius: 500px 0 0 500px;
+                     height: 100%;
 
-                    .marq-item {
-                        height: 100%;
-                        overflow: hidden;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-evenly;
-                        border-radius: 500px 0 0 500px;
+                     .marq-item {
+                         height: 100%;
+                         overflow: hidden;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-evenly;
+                         border-radius: 500px 0 0 500px;
 
-                        .marq-single {
-                            display: flex;
-                            column-gap: 40px;
+                         .marq-single {
+                             display: flex;
+                             column-gap: 40px;
 
-                            .image-item {
-                                display: flex;
-                                border-radius: 4px;
-                                padding: 10px;
-                                column-gap: 10px;
-                                background-color: #fff;
+                             .image-item {
+                                 display: flex;
+                                 border-radius: 4px;
+                                 padding: 10px;
+                                 column-gap: 10px;
+                                 background-color: #fff;
 
-                                img {
-                                    height: 40px;
-                                    width: 40px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+                                 img {
+                                     height: 40px;
+                                     width: 40px;
+                                 }
+                             }
+                         }
+                     }
+                 }
+             }
 
-            img {
-                width: 70%;
-            }
-        }
-    }
+             img {
+                 width: 70%;
+             }
+         }
+     }
 
-}
+ }
